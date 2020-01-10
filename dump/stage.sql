@@ -8,9 +8,12 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 
+GRANT all ON *.* to user
+
+
 CREATE TABLE `stagiaire` (
   `id` int(11) NOT NULL,
-  `nom` varchar(20) NOT NULL
+  `nom` varchar(20) NOT NULL,
   `prenom` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
